@@ -1,7 +1,7 @@
-# Some Computer Vision projects
+# About
 This is a collection of some computer vision projects implemented with Python and some Python library like opencv, numpy and scipy.
 
-## PhotoDemosaic
+# PhotoDemosaic
 This is a project for demosaic photos. 
 
 For this problem, the "mosaic" image was created by taking the original color image and keeping only one color component for each pixel, according to the standard Bayer pattern:
@@ -18,24 +18,24 @@ This Projects implemented the Linear Interpolation and The Freeman Method to do 
 Before:
 ![Crayon](ReadmeImages/crayons.bmp)
 After:
-![Crayon](ReadmeImages/crayons.png)
+![Crayon](ReadmeImages/crayon.png)
 
 <hr>
 
-## Shape from shading
+# Shape from shading
 Get the shape of faces from the shading parameters
 
 ![photo](ReadmeImages/shape_from_shading.jpg)
 
 <hr>
 
-## Hybrid Images
+# Hybrid Images
 This problem is to creat hybrid images use the technique described in this SIGGRAPH 2006 paper by Oliva, Torralba, and Schyns (see also the end of this lecture). Hybrid images are static images with two interpretations, which changes as a function of the viewing distance. Consider the example below. Figures A and B are the input images of a cereal box and its contents respectively. Figures C and D are the same hybrid image displayed at different resolutions. When we view the hybrid image at its normal size we see the cereal box and when we zoom out we see the bag of cereal. 
 
 ![photo](ReadmeImages/hybrid.png)
 
 
-## Scale-space blob detection
+# Scale-space blob detection
 The goal of this is to implement a Laplacian blob detector.
 
 #### Algorithm outline
@@ -51,7 +51,7 @@ The goal of this is to implement a Laplacian blob detector.
 ![blob](ReadmeImages/blob.jpg)
 ![blob](ReadmeImages/blobs_butterfly.gif)
 
-## Robust estimation and geometric vision
+# Robust estimation and geometric vision
 This project implemented homography and fundamental matrix estimation to register pairs of images, as well as attempt camera calibration, triangulation, and single-view 3D measurements.
 
 #### Stitching pairs of images
@@ -70,7 +70,7 @@ Estimating height of objects in images according to anotehr object
 <hr>
 
 
-## Deep Learning
+# Deep Learning
 Using Pytorch to design and train deep convolutional neural networks. Starting from a baseline architecture of CIFAR100 with architecture below:
 ![arc](ReadmeImages/arc.png)
 
@@ -85,7 +85,8 @@ Using Pytorch to design and train deep convolutional neural networks. Starting f
 4. Normalization layers. Normalization layers help reduce overfitting and improve training of the model. Pytorch's normalization layers are an easy way of incorporating them in your model. Add normalization layers after conv layers (nn.BatchNorm2d). Add normalization layers after linear layers and experiment with inserting them before or after ReLU layers (nn.BatchNorm1d).
 
 5. Early stopping. After how many epochs to stop training? This answer on stackexhange is a good summary of using train-val-test splits to reduce overfitting. 
+
 <hr>
 
-# Miscellaneous
+## Miscellaneous
 This is a collection of course projects I have done for UIUC course computer vision
