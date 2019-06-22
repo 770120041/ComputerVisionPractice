@@ -16,7 +16,9 @@ This Projects implemented the Linear Interpolation and The Freeman Method to do 
 
 #### A Little Demo
 Before:
+
 ![Crayon](ReadmeImages/crayons.bmp)
+
 After:
 ![Crayon](ReadmeImages/crayon.png)
 
