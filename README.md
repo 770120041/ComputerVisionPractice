@@ -16,10 +16,14 @@ This Projects implemented the Linear Interpolation and The Freeman Method to do 
 
 #### A Little Demo
 Before:
+<br>
 
 ![Crayon](ReadmeImages/crayons.bmp)
 
+<br>
 After:
+<br>
+
 ![Crayon](ReadmeImages/crayon.png)
 
 <hr>
